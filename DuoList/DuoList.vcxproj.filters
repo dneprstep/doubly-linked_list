@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="objects_data">
+      <UniqueIdentifier>{9198217f-a9ad-43ee-a9b7-cb38a4b7c9d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects_data\Header">
+      <UniqueIdentifier>{8229d19f-8fa9-4f83-a117-3d6f698af58a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects_data\Source">
+      <UniqueIdentifier>{a9962fde-8d0e-46ad-ad8a-4cdc4f8afd7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="list">
+      <UniqueIdentifier>{05469527-ce63-49b5-bc35-a1076002fcc1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="data_string.h">
+      <Filter>objects_data\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="float_data.h">
+      <Filter>objects_data\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="object_data.h">
+      <Filter>objects_data\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="string_data.h">
+      <Filter>objects_data\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="whole_number.h">
+      <Filter>objects_data\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="duo_list.h">
+      <Filter>list</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="data_string.cpp">
+      <Filter>objects_data\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="float_data.cpp">
+      <Filter>objects_data\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="object_data.cpp">
+      <Filter>objects_data\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="string_data.cpp">
+      <Filter>objects_data\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="whole_number.cpp">
+      <Filter>objects_data\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="duo_list.cpp">
+      <Filter>list</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
